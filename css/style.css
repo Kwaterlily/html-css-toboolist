@@ -10,19 +10,23 @@ body {
 }
 
 header {
-    height: 100px;
+    height: 88px;
     background-size: 28%;
     background-color: white;
+    margin-left: 5px;
 }
 
 header  img {
     margin-top: 10px;
     margin-left: 10px;
-    width: 70px;
+    width: 66px;
 }
 
 .container {
     background-color: white;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
+    border-radius: 10px;
+    padding: 80px;
+    margin-top: 50px
 }
