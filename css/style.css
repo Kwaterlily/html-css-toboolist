@@ -30,3 +30,28 @@ header  img {
     padding: 80px;
     margin-top: 50px
 }
+
+#Add-Task{
+    background-color:  #46adf1;
+    color: white;
+    border: solid;
+    padding: 7px 13px;
+}
+
+button {
+    background-color:  white;
+    border-radius: 5px;
+    color: lightgrey;
+    padding: 6px 12px;
+    border: solid;
+}
+
+/* 
+#Add-Section {
+    background-color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border-color: lightgrey; 
+    color: lightgray;
+
+} */
