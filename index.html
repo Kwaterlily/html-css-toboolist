@@ -5,38 +5,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
         <title>Document</title>
     </head>
     <body>
         <!-- Header -->
         <header>
             <img src="img/logo copia.png" alt="Logo">
+            <h1>Toboolist</h1>
         </header>
         <!-- /Header -->
-
-        <div class="container">
+        <nav>
             <button id="Add-Task" >Add Task</button>
             <button id="Add-Section" >Add Section</button>
+        </nav>
+
+        <div class="container">
             <ul>
-                <li>New Task
+                <li><strong>New Task</strong>
                        <ul>
-                           <li>Quarterly Newsletter</li>
+                           <li>Quarterly Newsletter <span class="Editorial">Editorial</span></li>
                        </ul>
                 </li>
-                <li>Today
+                <li><strong>Today</strong>
                     <ul>
-                        <li>Recruiting blog post</li>
-                        <li>Mobile app luaunch</li>
-                        <li>Interview John H.</li>
-                        <li>Summit update to mobile storefronts</li>
+                        <li>Recruiting blog post <span class="Editorial">Editorial</span></li>
+                        <li>Mobile app luaunch <span class="Editorial" id="ai-Gonis">ai Gonis</span></li>
+                        <li>Interview John H. <span class="Editorial" id="Recruiting">Recruiting</span></li>
+                        <li>Summit update to mobile storefronts <span class="Editorial" id="Mobile">Mobile</span></li>
                     </ul>
                 </li> 
-                <li>Upcoming
+                <li><strong>Upcoming</strong>
                     <ul>
                         <li>Schedule meeting with Alex</li>
-                        <li>Homepage refresh</li>
-                        <li>Onboard new Sales team members</li>
-                        <li>Review editorial calendar</li>
+                        <li>Homepage refresh <span class="Editorial" id="Website">Website</span></li>
+                        <li>Onboard new Sales team members <span class="Editorial" id="sales">sales</span></li>
+                        <li>Review editorial calendar <span class="Editorial">Editorial</span></li>
                     </ul>
                 </li>     
             <ul>   
