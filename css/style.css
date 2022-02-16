@@ -107,6 +107,7 @@ li > ul {
     margin-top: ;
     padding-left: ;
 } */
+
 li {
     margin-bottom: 20px;
     padding-right: 10px;
@@ -115,14 +116,13 @@ li {
 /* /List */
 
 
-/*checkli*/
+/*checklist*/
 .bullet {
     
     border-radius: 50%;
     border: 1px solid #63c0a9;
     line-height: 20px;
     margin-right: 10px;
-    margin-left: -14px;
     color: #63c0a9;
 }
 
@@ -130,7 +130,7 @@ li {
     color: red;
     border-radius: 3px solid red;
 }
-/*checkli*/
+/*checklist*/
 
 
 
