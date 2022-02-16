@@ -13,40 +13,51 @@
     <body>
         <!-- Header -->
         <header>
-            <img src="img/logo copia.png" alt="Logo">
+            <img class="logo" src="img/logo copia.png" alt="Logo">
             <h1>Toboolist</h1>
         </header>
         <!-- /Header -->
         <nav>
-            <button id="Add-Task" >Add Task</button>
+            <button id="Add-Task">Add Task</button>
             <button id="Add-Section" >Add Section</button>
         </nav>
-
+        
+        <!-- Lista -->
         <div class="container">
             <ul>
                 <li><strong>New Task</strong>
                        <ul>
-                           <li>Quarterly Newsletter <span class="Editorial">Editorial</span></li>
+                           <li>
+                               <span class="bullet">&checkmark; </span> 
+                               Quarterly Newsletter <span class="Editorial">Editorial</span></li>
                        </ul>
                 </li>
                 <li><strong>Today</strong>
                     <ul>
-                        <li>Recruiting blog post <span class="Editorial">Editorial</span></li>
-                        <li>Mobile app luaunch <span class="Editorial" id="ai-Gonis">ai Gonis</span></li>
-                        <li>Interview John H. <span class="Editorial" id="Recruiting">Recruiting</span></li>
-                        <li>Summit update to mobile storefronts <span class="Editorial" id="Mobile">Mobile</span></li>
+                        <li>
+                            <span class="bullet"> &checkmark; </span> Recruiting blog post <span class="Button">Editorial</span></li>
+                        <li>
+                            <span class="bullet"> &checkmark; </span> Mobile app luaunch <span class="Button" id="Q1-Gonis">Q1 Gonis</span></li>
+                        <li>
+                            <span class="bullet red"> &#x2715; </span> Interview John H. <span class="Button" id="Recruiting">Recruiting</span></li>
+                        <li>
+                            <span class="bullet"> &checkmark; </span> Summit update to mobile storefronts <span class="Button" id="Mobile">Mobile</span></li>
                     </ul>
                 </li> 
                 <li><strong>Upcoming</strong>
                     <ul>
-                        <li>Schedule meeting with Alex</li>
-                        <li>Homepage refresh <span class="Editorial" id="Website">Website</span></li>
-                        <li>Onboard new Sales team members <span class="Editorial" id="sales">sales</span></li>
-                        <li>Review editorial calendar <span class="Editorial">Editorial</span></li>
+                        <li>
+                            <span class="bullet red"> &#x2715; </span> Schedule meeting with Alex</li>
+                        <li>
+                            <span class="bullet"> &checkmark; </span> Homepage refresh <span class="Button" id="Website">Website</span></li>
+                        <li>
+                            <span class="bullet"> &checkmark; </span> Onboard new Sales team members <span class="Button" id="Sales">Sales</span></li>
+                        <li>
+                            <span class="bullet"> &checkmark; </span> Review editorial calendar <span class="Button">Editorial</span></li>
                     </ul>
                 </li>     
             <ul>   
         </div>
-        
+        <!-- /Lista -->
     </body>
     </html>

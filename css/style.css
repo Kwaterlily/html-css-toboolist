@@ -22,8 +22,7 @@ header {
 }
 
 header  img {
-    margin-top: 10px;
-    margin-left: 20px;
+    vertical-align: middle;
     width: 66px;
 }
 
@@ -49,7 +48,7 @@ header h1 {
     padding: 40px;
     padding-left: 60px;
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;;
 }
 
 nav {
@@ -63,42 +62,80 @@ nav {
     padding-left: 60px;
 }
 
-#Add-Task{
-    background-color:  #46adf1;
-    color: white;
-    border: solid;
-    padding: 8px 15px;
-}
-
 button {
-    background-color:  white;
+    background-color: white;
     border-radius: 7px;
     color: lightgrey;
     padding: 7px 13px;
     border: solid;
 }
 
+#Add-Task {
+    background-color: #46ADF1;
+    padding: 7px 13px;
+    border: solid #46ADF1;
+    color: white;
+}
+
+
+/* List */
 li > ul {
     font-size: 19px;
     margin-bottom: 30px;
+    margin-top: 10px;
+    list-style-type: none;
 }
 
-ul > li ::marker {
+/* ul > li ::marker {
     content: ' \2713';
     color:  #63c0a9;
-}
+    padding-right: 50%;
+    
+} */
 
-::marker {
+/* ::marker {
     content: ' \25BE';
     color: #454952;
-}
+    padding-right: 50px;
+} */
 
+/* li {
+    padding-right: 15px;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: ;
+    padding-left: ;
+} */
 li {
     margin-bottom: 20px;
-    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+}
+/* /List */
+
+
+/*checkli*/
+.bullet {
+    
+    border-radius: 50%;
+    border: 1px solid #63c0a9;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-left: -14px;
+    color: #63c0a9;
 }
 
-.Editorial {
+.red.bulled {
+    color: red;
+    border-radius: 3px solid red;
+}
+/*checkli*/
+
+
+
+/* Etichette */
+.Button {
     background-color: #46adf1;
     color: white;
     font-size: 10px;
@@ -106,13 +143,13 @@ li {
     padding: 7px 13px;
 }
 
-#ai-Gonis {
+#Q1-Gonis {
     background-color: #9C72E4;
     color: white;
     font-size: 10px;
     border-radius: 15px;
     padding: 7px 13px;
-}
+} 
 
 #Recruiting {
     background-color: #63c0a9;
@@ -130,6 +167,14 @@ li {
     padding: 7px 13px;
 }
 
+#Sales {
+    background-color: #B0C925;
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 7px 13px;
+}
+
 #Website {
     background-color: #D763A1;
     color: white;
@@ -137,11 +182,6 @@ li {
     border-radius: 15px;
     padding: 7px 13px;
 }
+/* /Etichette */
 
-#sales {
-    background-color: #B0C925;
-    color: white;
-    font-size: 10px;
-    border-radius: 15px;
-    padding: 7px 13px;
-}
+
