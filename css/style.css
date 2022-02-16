@@ -4,11 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: #454952;
 }
 
 body {
     background-color: #f5f8f9;
 }
+
 
 /* header */
 header {
@@ -16,8 +18,7 @@ header {
     background-size: 28%;
     background-color: white;
     margin-left: 5px;
-    position: relative;
-    
+    position: relative;    
 }
 
 header  img {
@@ -35,9 +36,7 @@ header h1 {
     top: 48%;
     left: 14%;
     transform: translate(-50%, -50%);
-    
 }
-
 /* /header */
 
 
@@ -48,11 +47,10 @@ header h1 {
     border-radius: 0 0 10px 10px;
     margin-top: 0px;
     padding: 40px;
-    padding-left: 80px;
+    padding-left: 60px;
     font-size: 24px;
     margin-bottom: 40px;
 }
-
 
 nav {
     background-color: white;
@@ -87,7 +85,6 @@ li > ul {
 
 ul > li ::marker {
     content: ' \2713';
-    border-radius: 3px;
     color:  #63c0a9;
 }
 
@@ -98,9 +95,8 @@ ul > li ::marker {
 
 li {
     margin-bottom: 20px;
-    margin-left: 15px;
+    padding-left: 10px;
 }
-
 
 .Editorial {
     background-color: #46adf1;
@@ -134,7 +130,6 @@ li {
     padding: 7px 13px;
 }
 
-
 #Website {
     background-color: #D763A1;
     color: white;
@@ -142,7 +137,6 @@ li {
     border-radius: 15px;
     padding: 7px 13px;
 }
-
 
 #sales {
     background-color: #B0C925;
